@@ -10,28 +10,23 @@ To support persistent user identification across properties and solutions, Adobe
 ## How are browsers changing the way they handle cookies?
 
 Third-party cookies: 
-Limitations : Third-party cookies are severely limited and will eventually be obsolete. Firefox and Safari blocked third-party cookies by default starting in 2019 and 2020 respectively. Chrome has announced plans to block third-party cookies sometime in 2022 at which time third-party cookies will effectively be unusable. 
+Relevance to Analytics use cases:
+Third-party cookies are used for cross-domain tracking as well as advertising use cases. Without these cookies, you will not be able to identify visitors as they visit different domains you may own or as they are shown ads on sites you don't own.
 
-Impact to Analytics use cases:
-Third-party cookies are not heavily used by Adobe Analytics. They are primarily used for cross-domain tracking. Without these cookies, you will not be able to identify visitors as they visit different domains you may own. 
+Limitations : Third-party cookies are severely limited and will soon be obsolete. Firefox and Safari blocked third-party cookies by default starting in 2019 and 2020 respectively. Chrome has announced plans to block third-party cookies sometime in 2022 at which time third-party cookies will effectively be unusable. 
 
 First-party cookies:
-Limitation: First-party cookies are permitted on all major browsers but they are limited to a 7-day expiry under Apple's ITP program. This limitation applies to Safari on MacOS as well as all browsers on iOS and iPadOS. This 7-day expiry was put in place in two main phases. With ITP 2.1 (https://webkit.org/blog/category/privacy/) in February of 2019, this limit was applied to cookies set through the document.cookie API, often known a 
-"client-side cookies". At that time cookies set via a CNAME implementation, also known as "server-side cookies" we not capped. In November of 2020, Apple updated ITP policies to palce the same 7-day limit on server-side cookies. At that point all cookies set by Adobe and other analytics providers have been limited to a 7-day expiry. See reference below for detailed timeline.
-<NEXT>
-The following list shows some recent changes according to browsers:
+Relevance for Analytics use cases:
+First party cookies are used to identify users when they are on your site and so underpin all analysis of a users activity on your site. Third-party cookies are not need to understand on-site activity.
 
-* Third-Party Cookies: Third party cookies are preventsChrome: Chrome has stStarting with Chrome 80, the `SameSite` attribute is handled differently to manage third-party cookies or cross-site requests. Ultimately, Chrome developers are looking for ways to [deprecate third-party cookies](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html?m=1) altogether.
-
-* Firefox and Edge: Product announcements state that successive versions of their browsers are to follow the same changes as those made in Chrome 80.
-
-* Safari: With [Safari 12.1](https://webkit.org/blog/category/privacy/), first party persistent cookies set through the document.cookie API, often known as “client-side” cookies, have their expiration capped at seven days.
+Limitation: First-party cookies are permitted with no limitations on all major browsers except browsers governed by Apple's ITP program (link tbd) where they are limited to a 7-day expiry.  If a user goes 7 days between visits to your site they will be treated as a new user when they return. This limitation applies to Safari on MacOS as well as all browsers on iOS and iPadOS. This 7-day expiry would have taken effect at different times depending on your implementation. In February of 2019 with ITP 2.1 (https://webkit.org/blog/category/privacy/), this limit was applied to cookies set through the document.cookie API, often known as 
+"client-side cookies". At that time cookies set via a CNAME implementation, also known as "server-side cookies" did not have their a limit on their expiry. In November of 2020, Apple updated ITP policies to place the same 7-day limit on server-side cookies. From that point, all cookies set by Adobe and other analytics providers have been limited to a 7-day expiry. See reference below for detailed timeline.
 
 ## What is the difference between third-party cookies and first-party cookies?
 
 ### First-party cookies
 
-First party cookies are created by customer websites (domain-specific) and stored into client browsers as users visit customer websites. All browsers generally accept first-party cookies. In a first-party cookie Analytics implementation, the visitor id cookie is created at an Adobe node when the hostname is reconciled with the domain by use of a [CNAME](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html). The cookie is then accepted by the browser in a first party context. For more information, see [About first-party cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html).
+First party cookies are created by customer websites (domain-specific) and stored into client browsers as users visit customer websites. All browsers generally accept first-party cookies, though some browsers limit their expiry to seven days. In a first-party cookie Analytics implementation, the visitor id cookie is can be set server-side via a CNAME implementation [link?] or client-side via Javascript. If you do not have a CNAME implementation, the Visitor ID service will set IDs via client-side JavaScript. at an Adobe node when the hostname is reconciled with the domain by use of a [CNAME](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html).For more information, see [About first-party cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html).
 
 ### Third-party cookies
 
