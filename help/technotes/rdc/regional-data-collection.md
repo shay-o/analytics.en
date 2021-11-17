@@ -34,9 +34,9 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 | Asia Pacific Only | Mumbai, Singapore, Tokyo, Sydney |
 | China Only* | Beijing |
 
-*China Only and Global + China RDC types require the China Add-On package. See the 'Important' note above. China + Global will route data originating inside China to our China RDC while routing data originating outside of China to the nearest RDC outside of China. 
+*China Only and Global + China RDC types require the China Add-On package. See the 'Important' note above. Global + China will route data originating inside China to our China RDC while routing data originating outside of China to the nearest RDC outside of China. 
 
-Note: Experience Edge Global provides the best performance for your end users.  If you desire to use an alternate RDC type, please contact Adobe Customer Care for assistance.
+Note: Experience Edge Global and Global + China provide the best performance for your end users.  If you desire to use an alternate RDC type, please contact Adobe Customer Care for assistance.
 
 
 
