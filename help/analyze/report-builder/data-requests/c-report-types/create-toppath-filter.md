@@ -1,7 +1,6 @@
 ---
 description: Describes how to create path reports with predefined filters.
 title: Filter Path Reports by Adding Dependent Requests
-uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
@@ -24,12 +23,10 @@ Report Builder does not offer these as standalone reports, but you can create th
 * Path > Entry Path > As Entry Page 
 * Path > Exit Path > As Exit Page
 
-1. Select multiple rows from an existing request, then right-click **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**.
+1. Select multiple rows from an existing request, then right-click **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**. You must select at least three rows if you want to see the **[!UICONTROL Page Fallout]** menu item.
 
-   (Note that you have to select at least 3 rows if you want to see the **[!UICONTROL Page Fallout]** menu item.)
+   ![Screenshot showing three selected rows with the Add Dependent Request option selected.](assets/dependen_request.png)
 
-   ![](assets/dependen_request.png)
-
-1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
+2. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
 
    The Request Wizard appears, with the Previous Page metric already selected. 1. Continue to refine your request in the Request Wizard and generate your request.

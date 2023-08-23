@@ -9,6 +9,8 @@ exl-id: 8b923484-0988-4271-8186-317bb33f2210
 ---
 # Bookmark Manager
 
+{{ra-eol}}
+
 Bookmarks give you access to the reports that you use the most. The bookmarks you create are added to the Experience Cloud and are available in integrated capabilities like data connectors.
 
 ## Create a bookmark {#task_305BDB470E374026AD48F19D11A387A6}
@@ -23,11 +25,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       |Name|A user friendly name for this bookmark.|
-       |---|---|
-       |Add to|Specifies the folder in which you want to place the bookmark.|
-       |Make Public| Makes this bookmark available for users with access to the report suite.|
-       |Display report upon login| Displays the report when you log in.|
+   |Name|A user friendly name for this bookmark.|
+   |---|---|
+   |Add to|Specifies the folder in which you want to place the bookmark.|
+   |Make Public| Makes this bookmark available for users with access to the report suite.|
+   |Display report upon login| Displays the report when you log in.|
 
 ## Manage bookmarks {#task_1EE793CB52EA467787817BBD98DEF150}
 

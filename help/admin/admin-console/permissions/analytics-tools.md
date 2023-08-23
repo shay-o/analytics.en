@@ -2,6 +2,7 @@
 title: Product profile permissions for Analytics Tools
 description: Use Analytics Tools permission items to grant access to features within Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
+feature: Admin Tools
 ---
 # Product profile permissions for Analytics Tools
 
@@ -10,7 +11,7 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | Analytics Tools Permission Item | Description |
 |----|----|
 | [!UICONTROL Server Call Usage] | Grants access to Admin > Server Call Usage. |
-| [!UICONTROL Code Manager] | Kept around for legacy purposes. Grants access to Admin > All admin > Code manager. In most cases, use the libraries included in the Data Collection UI instead. |
+| [!UICONTROL Code Manager] | Kept around for legacy purposes. Grants access to Admin > All admin > Code manager. In most cases, use the libraries included in the Adobe Analytics extension within Adobe Experience Platform Data Collection instead. |
 | [!UICONTROL Code Manager - Web Services]| Grants access to the Code Manager via the 1.4 API. |
 | [!UICONTROL Logs] | Grants access to Admin > All admin > Logs. |
 | [!UICONTROL Logs - Web Services]| Grants access to pull logs via the 1.4 API. |
@@ -35,6 +36,6 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | [!UICONTROL Segment Creation] | Grants the ability to create and share segments across all Analytics capabilities. |
 | [!UICONTROL Advertising Analytics Management] | Not used. |
 | [!UICONTROL Segment Publishing] | Grants the ability to make a segment an Experience Cloud audience when creating or editing a segment. |
-| [!UICONTROL Integrations (Create)]| Grants access to Admin > All admin > Data connectors, and allows the user to create data connectors. |
-| [!UICONTROL Integrations (Update)]| Grants access to Admin > All admin > Data connectors, and allows the user to modify existing connector configurations. |
-| [!UICONTROL Integrations (Delete)]| Grants access to Admin > All admin > Data connectors, and allows the user to delete data connectors. |
+| [!UICONTROL Integrations (Create)]| Not used. Data Connectors have been end-of-lifed.|
+| [!UICONTROL Integrations (Update)]| Not used. |
+| [!UICONTROL Integrations (Delete)]| Not used. |

@@ -1,7 +1,6 @@
 ---
 description: Interactive Controls allow you to edit segments and date ranges for one or more requests directly from the worksheet. This gives you more flexibility when updating report builder requests.
 title: Interactive controls
-uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
@@ -22,7 +21,7 @@ Interactive controls were created in response to a common workflow where analyst
 >* If you are running Excel on Mac, changing the value in the control will cause the following message to be displayed: "The macro 'Adobe.ReportBuilder.Bridge.FormControlClick.Event' cannot be found." 
 >
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Do not tamper with the name of the control. (To see the name, set the focus on the control and the control name appears right above the Excel grid, in the upper left corner.)
 
@@ -31,11 +30,11 @@ Interactive controls were created in response to a common workflow where analyst
 1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL Page]** report.
 1. Next to the **[!UICONTROL Commonly Used Dates]** drop down, click the **[!UICONTROL Control Settings]** icon:
 
-   ![](assets/date_range_control.png)
+   ![Screenshot of the Request Wizard Step 1 highlighting the Control Settings icon. ](assets/date_range_control.png)
 
 1. In the Control Settings dialog, select all the date range items that you want displayed in the interactive control. In addition, specify the upper left cell location of the control.
 
-   ![](assets/control_settings.png)
+   ![Screenshot showing the selected date ranage items and the upper-left cell location.](assets/control_settings.png)
 
 1. Notice the option to "Automatically refresh linked requests upon item selection".
 
@@ -44,9 +43,10 @@ Interactive controls were created in response to a common workflow where analyst
 
 1. Click **[!UICONTROL OK]**. The control appears in the cell location that you specified:
 
-   ![](assets/date_range_control_interactive.png)
-
 1. You can now change the date range and the request will refresh with that date range.
+
+   ![Screenshot showing the selected date range.](assets/date_range_control_interactive.png)
+
 1. You can also copy the request and right click to use one of two Paste Request options:
 
     * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. This means that the copied request will point to the same interactive date range control as the original request.
@@ -63,12 +63,12 @@ Implementing the interactive segment control is similar to implementing the date
 
 1. In Step 1 of the Request Wizard, next to the **[!UICONTROL Segment]** drop-down list, select the Segment Control Settings icon:
 
-   ![](assets/segment_interactive_1.png)
+   ![Screenshot of the Segment Control Settings icon.](assets/segment_interactive_1.png)
 
 1. In the Segment Control Settings dialog, select the segments you want to include in the drop-down. In addition, specify the upper left cell location of the control.
 
-   ![](assets/segment_drop_down_properties.png)
+   ![Screenshot showing Segment Control Settings with selected segments and the cell location.](assets/segment_drop_down_properties.png)
 
 1. The new interactive control will now appear in the workbook:
 
-   ![](assets/segment_interactive_3.png)
+   ![Screenshot showing the new interactive control selected.](assets/segment_interactive_3.png)

@@ -2,9 +2,9 @@
 title: Segment IQ Overview
 description: Learn about what Adobe Analytics Segment IQ is and how it can help your organization.
 keywords: Analysis Workspace;Segment IQ
-feature: AI Tools
 role: User, Admin
 exl-id: 8b8f63ae-2697-474d-9c51-5d90d31f55ef
+feature: Visualizations
 ---
 # Segment IQ Overview
 

@@ -1,7 +1,7 @@
 ---
 description: Analytics and Audience Manager both use segments. However, an Analytics segment is not exactly the same thing as an Audience Manager segment. These differences contribute, in part, to the discrepancies you will see in your Analytics and Audience Manager reports. As a result, it's important and useful to try and understand these differences when you start to work with segments in both of these solutions.
 title: Understand segments in Analytics and Audience Manager
-uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
+feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 ---
 # Understand segments in Analytics and Audience Manager
@@ -33,9 +33,9 @@ An&nbsp;Analytics&nbsp;segment is a filtering mechanism for data in your reports
 
   For example, if eVar = blue and is set to never expire in Analytics, any segment in Analytics with criteria "eVar = blue" will always include this visitor. Whereas, in Audience Manager, that visitor could fall out of a similarly defined segment after a set period of time.
 
-* Analytics segments have more capabilities than AAM segments. Audience Manager segments are always evaluated at a visitor level. Analytics segments can be defined at a visitor, visit, or hit level (or a combination of these levels). Additionally, Analytics supports advanced segmentation capabilities that Audience Manager does not, such as sequential segmentation.
+* Analytics segments have more capabilities than Adobe Audience Manager segments. Audience Manager segments are always evaluated at a visitor level. Analytics segments can be defined at a visitor, visit, or hit level (or a combination of these levels). Additionally, Analytics supports advanced segmentation capabilities that Audience Manager does not, such as sequential segmentation.
 * As mentioned previously, Audience Manager visitors can enter or drop out of a segment depending on whether they qualify for the segment criteria at the current point in time.
 
-  Conversely, in Analytics, visitors will be included or excluded from a segment based on the reporting date range. For example, a single visitor made a purchase last month. In AAM, that visitor would be included in a "purchaser" segment, regardless of the date range. In Analytics, a report based on this month would not include the visitor in the segment. However, a report based on this month & last month would include the visitor in the segment.
+  Conversely, in Analytics, visitors will be included or excluded from a segment based on the reporting date range. For example, a single visitor made a purchase last month. In Adobe Audience Manager, that visitor would be included in a "purchaser" segment, regardless of the date range. In Analytics, a report based on this month would not include the visitor in the segment. However, a report based on this month & last month would include the visitor in the segment.
 
 See the [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) for more information.

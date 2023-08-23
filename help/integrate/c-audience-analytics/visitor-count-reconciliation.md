@@ -1,7 +1,7 @@
 ---
 description: There are visitor metrics in Adobe Analytics and Adobe Audience Manager that have similar definitions, and but that are not 100% aligned, for various reasons.
 title: Visitor Count differences
-uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
+feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 ---
 # Visitor Count differences
@@ -19,11 +19,11 @@ The visitor metrics are:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Total Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: Total Segment Population</a> </p> </td> 
    <td colname="col3"> <p>Count of devices (Experience Cloud IDs) that were a member of your segment during the lookback period. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Real-Time Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > Adobe Audience Manager: Real-Time Segment Population</a> </p> </td> 
    <td colname="col3"> <p>Count of devices (Experience Cloud IDs) that were a member of your segment and reached your properties during the lookback period. </p> </td> 
   </tr> 
   <tr> 
@@ -37,13 +37,13 @@ The visitor metrics are:
  </tbody> 
 </table>
 
-AAM Real-time Segment Population and Analytics Visitors with Experience Cloud ID used within Audience Analytics reporting will be the most similar. For the near term however, because of several factors, there will be slight discrepancies between them. Contributing factors are: 
+Adobe Audience Manager Real-time Segment Population and Analytics Visitors with Experience Cloud ID used within Audience Analytics reporting will be the most similar. For the near term however, because of several factors, there will be slight discrepancies between them. Contributing factors are: 
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Factor </th> 
-   <th colname="col2" class="entry"> AAM: Real-time Segment Population </th> 
+   <th colname="col2" class="entry"> Adobe Audience Manager: Real-time Segment Population </th> 
    <th colname="col3" class="entry"> Analytics: Visitors with Experience Cloud ID </th> 
   </tr>
  </thead>

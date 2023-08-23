@@ -7,13 +7,13 @@ exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 ---
 # Multiple report suites
 
-You can now create projects in Analysis Workspace with data from more than one report suite. Report suites are now chosen at the panel level, so you can choose a different report suite for each panel within the same Workspace project. 
+You can create projects in Analysis Workspace with data from more than one report suite. Report suites are chosen at the panel level, so you can choose a different report suite for each panel within the same Workspace project. 
 
 This capability is useful if you want to, for example,
 
 * Compare data from two different regions, and the data resides in two different report suites. You can build tables and visualizations to compare the data side by side.
 
-* Build a dashboard of metrics and visualizations to report out to other organizations. You can now pull data from various report suites into in the same project.
+* Build a dashboard of metrics and visualizations to report out to other organizations. You can pull data from various report suites into in the same project.
 
 Here is a video on the subject:
 
@@ -29,7 +29,7 @@ You can apply a report suite to all panels at once by right-clicking any panel h
 
 We are introducing the concept of "active panel" versus "inactive panel" with this feature. You can recognize the active panel by the light blue border around it. Simply clicking inside a panel turns that panel into the active panel.
 
->[!IMPORTANT]
+>[!TIP]
 >You can drag and drop to any panel that is in the same report suite as your active panel. By dragging into an inactive panel of the same report suite, the panel will become active.
 
 | Task | Active panel | Inactive panel |

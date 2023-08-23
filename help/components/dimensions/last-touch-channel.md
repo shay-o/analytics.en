@@ -1,6 +1,7 @@
 ---
 title: Last touch channel
 description: The most recent marketing channel within the visitor's engagement expiration.
+feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
 ---
 # Last touch channel
@@ -9,7 +10,7 @@ The 'Last touch channel' dimension reports the most recent marketing channel a v
 
 ## Populate this dimension with data
 
-This dimension directly references channel names that you have defined in the [Marketing channel manager](/help/admin/admin/marketing-channels-admin.md).
+This dimension directly references channel names that you have defined in the [Marketing channel manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Every hit sent to Adobe data collection servers run through your report suite's Marketing channel processing rules. It iterates through each rule in numeric order until it finds a match, in which that marketing channel ties to the hit. The last touch channel persists with the visitor until they don't visit the site for longer than the visitor engagement period (30 days by default).
 

@@ -3,19 +3,33 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
-user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
+user-guide-description: Learn how to use Analytics tools, including Analysis Workspace, Analytics Dashboards, Report Builder, and Activity Map.
 ---
 
-# Analytics Tools Guide {#analyze}
+# Adobe Analytics Tools Guide {#analyze}
 
 + [Analytics Tools Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ Get started with Adobe Analytics {#admin-overview}
+  + [Analytics overview](get-started/analytics-overview.md)
+  + [Which Adobe Analytics tool should I use?](get-started/which-analytics-tool.md)
+  + [Analytics product comparison and requirements](get-started/analytics-product-comparison.md)
+  + [System requirements](get-started/sys-reqs.md)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace overview](analysis-workspace/home.md)
   + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
   + Projects {#build-workspace-project}
     + [Projects overview](analysis-workspace/build-workspace-project/freeform-overview.md)
+    + [Create projects](analysis-workspace/build-workspace-project/create-projects.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
+    + Folders in Workspace {#workspace-folders}
+      + [About Folders in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + [Create Folders and Subfolders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+      + [Delete Folders](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
+      + [Add Projects](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+      + [Remove a Project](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+      + [Save a New Project](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
     + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
     + [Hotkeys (Shortcuts)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
@@ -23,6 +37,13 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [View Density](analysis-workspace/build-workspace-project/view-density.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
+    + [Add component descriptions](analysis-workspace/components/add-component-descriptions.md)
+    + Annotations {#annotations}
+      + [Annotations overview](analysis-workspace/components/annotations/overview.md)
+      + [Create annotations](analysis-workspace/components/annotations/create-annotations.md)
+      + [Manage annotations](analysis-workspace/components/annotations/manage-annotations.md)
+      + [View annotations](analysis-workspace/components/annotations/view-annotations.md)
+      + [Mobile annotations](analysis-workspace/components/annotations/mobile-annotations.md)
     + Dimensions {#dimensions}
       + [Preview dimensions](analysis-workspace/components/dimensions/view-dimensions.md)
       + [Break down dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -31,11 +52,15 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + Segments {#segments}
       + [Create segments](analysis-workspace/components/segments/t-freeform-project-segment.md)
       + [Quick segments](analysis-workspace/components/segments/quick-segments.md)
-      + [Ad-hoc segments](analysis-workspace/components/segments/ad-hoc-segments.md)
     + Calendar and date ranges {#calendar-date-ranges}
       + [Calendar and date ranges overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
       + [Create custom date ranges](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + [Date comparison](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+    + Data Dictionary {#data-dictionary}
+      + [Data Dictionary overview](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+      + [View component information in the Data Dictionary](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+      + [Edit component entries in the Data Dictionary](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+      + [Monitor Data Dictionary health](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
   + Visualizations {#visualizations}
     + [Visualizations overview](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
     + [Manage data sources](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -45,7 +70,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
         + [Column settings](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
         + [Row settings](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
         + [Dynamic vs. Static items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-      + [Pagination, filtering and sorting tables](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+      + [Filter and sort tables](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
       + [Workspace Totals](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
     + Cohort Table {#cohort-table}
       + [What is Cohort Analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
@@ -58,30 +83,37 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
       + [Apply segments in fallout analysis](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
     + Flow {#flow}
       + [Flow overview](analysis-workspace/visualizations/c-flow/flow.md)
-      + [Configure a flow visualization](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-      + [Flow settings](analysis-workspace/visualizations/c-flow/flow-settings.md)
+      + [Configure a flow visualization](analysis-workspace/visualizations/c-flow/create-flow.md)
       + [Inter-dimensional flows](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-    + [Histogram](analysis-workspace/visualizations/histogram.md)
-    + [Map](analysis-workspace/visualizations/map-visualization.md)
-    + [Venn](analysis-workspace/visualizations/venn.md)
     + [Area and area stacked](analysis-workspace/visualizations/area.md)
     + [Bar and bar stacked](analysis-workspace/visualizations/bar.md)
     + [Bullet graph](analysis-workspace/visualizations/bullet-graph.md)
+    + [Combo chart](analysis-workspace/visualizations/combo-charts.md)
     + [Donut](analysis-workspace/visualizations/donut.md)
+    + [Histogram](analysis-workspace/visualizations/histogram.md)
     + [Horizontal Bar and Horizontal Bar Stacked](analysis-workspace/visualizations/horizontal-bar.md)
+    + [Key metric summary](analysis-workspace/visualizations/key-metric.md)
     + [Line](analysis-workspace/visualizations/line.md)
+    + [Map](analysis-workspace/visualizations/map-visualization.md)    
     + [Scatterplot](analysis-workspace/visualizations/scatterplot.md)
     + [Summary Number and Summary Change](analysis-workspace/visualizations/summary-number-change.md)
     + [Text](analysis-workspace/visualizations/text.md)
     + [Tree map](analysis-workspace/visualizations/treemap.md)
+    + [Venn](analysis-workspace/visualizations/venn.md)
   + Panels {#panels}
     + [Panels overview](analysis-workspace/c-panels/panels.md)
     + [Analytics for Target (A4T) panel](analysis-workspace/c-panels/a4t-panel.md)
     + [Attribution panel](analysis-workspace/c-panels/attribution.md)
     + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
+    + [Media Average Minute Audience panel](analysis-workspace/c-panels/average-minute-audience-panel.md)
     + [Media Concurrent Viewers panel](analysis-workspace/c-panels/media-concurrent-viewers.md)
-    + [Media Playback Time Spent panel](analysis-workspace/c-panels/media-playback-time-spent.md)
+    + Media Playback Time Spent {#media-playback-timespent}
+      + [Overview](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+      + [Input and Output Settings](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+      + [FAQs](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+    + [Next or previous item panel](analysis-workspace/c-panels/next-previous.md)
+    + [Page summary panel](analysis-workspace/c-panels/page-summary.md)
     + [Quick Insights panel](analysis-workspace/c-panels/quickinsight.md)
     + Segment comparison panel {#segment-comparison}
       + [Segment comparison overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -145,7 +177,6 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
       + [Select a report suite from an existing request in Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
       + [Use Excel to locate a report suite ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
     + [Manage segments](report-builder/data-requests/segmentation.md)
-    + [Allow Publishing List overrides](report-builder/data-requests/allow-publishing-list-overrides.md)
     + Report types {#report-types}
       + [Report types overview](report-builder/data-requests/c-report-types/select-report-types.md)
       + [Path and path fallout reports in Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)
@@ -279,9 +310,9 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [Reports Menu](reports-analytics/overview/reports-menu.md)
     + [Report Features](reports-analytics/overview/report-overview.md)
     + [Common Terms](reports-analytics/overview/overview-common-terms.md)
-    + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
   + [Report display settings and navigation](reports-analytics/report-settings.md)
   + [Report schedule and distribution](reports-analytics/scheduling.md)
+  + [End-of-life notice for scheduled reports](reports-analytics/scheduled-reports-eol.md)
   + [Report types](reports-analytics/reports.md)
   + [Run different report types](reports-analytics/t-running-report-types.md)
   + Customize reports {#customize-reports}
@@ -295,7 +326,6 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
   + [Current Data](reports-analytics/current-data.md)
   + [Dashboards and reportlets](reports-analytics/dashboard.md)
   + [Dashboard Manager](reports-analytics/dashboard-manage.md)
-  + [Data extract](reports-analytics/data-extract.md)
   + [Funnel reports](reports-analytics/funnels.md)
   + [Metrics](reports-analytics/metrics.md)
   + [Targets](reports-analytics/targets.md)

@@ -1,6 +1,7 @@
 ---
 title: Opt-out links
 description: Learn how to create an implement opt-out links for visitors to your site.
+feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 ---
 # Implement opt-out links
@@ -15,16 +16,16 @@ When a visitor reaches an opt-out URL, they are prompted to install an opt-out c
 
 >[!TIP]
 >
->Adobe also offers privacy settings on a per-report suite basis. See [Privacy Settings](../../admin/admin/privacy-settings.md) in the Admin user guide.
+>Adobe also offers privacy settings on a per-report suite basis. See [Privacy Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md) in the Admin user guide.
 
 ## Opt-out URL
 
 The opt-out page for your organization depends on the [`trackingServer`](../vars/config-vars/trackingserver.md) variable value in your implementation.
 
-* In the Data Collection UI:
-  1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-  1. Click the desired property.
-  1. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics. 
+* In the Analytics extension:
+  1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+  1. Click the desired tag property.
+  1. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
   1. Click the [!UICONTROL General] accordion, and note the [!UICONTROL Tracking Server] value.
 
 * In a JavaScript implementation:

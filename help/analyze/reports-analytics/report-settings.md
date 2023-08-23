@@ -1,13 +1,16 @@
 ---
 description: Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu.
 title: Report display settings and navigation
-uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
 ---
 # Report display settings and navigation
 
 Settings that define how all reports appear and information that maps the default menu options to their location in the simplified menu.
+
+>[!IMPORTANT]
+>Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe’s technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
 
 ## Report display settings and navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
@@ -36,7 +39,7 @@ Settings that define how all reports appear and information that maps the defaul
 |**Language/Currency/Encoding**||
 |Thousands Separator| Select a separator for every thousands (decimal or comma). Many countries use a decimal to separate the thousands number. (This separator is applied to all numbers throughout the system, not just currency.)|
 |Use the report suite's default currency|Specifies whether to use the report suite's default currency.|
-|Currency|The currency to which you want to convert your data. When a value is selected in this setting, the data stored in the database is not affected, but is shown as a converted value based on the current day's currency conversion rate. When currency options are not configured (set to the defaults) no currency conversion takes place, and all values are stored and displayed in U.S. dollars (USD). To convert the currency when the data is processed (before it is displayed), contact your account manager.|
+|Currency|The currency to which you want to convert your data. When a value is selected in this setting, the data stored in the database is not affected, but is shown as a converted value based on the current day's currency conversion rate. When currency options are not configured (set to the defaults) no currency conversion takes place, and all values are stored and displayed in U.S. dollars (USD). To convert the currency when the data is processed (before it is displayed), contact your Adobe Account Team.|
 |Scheduled Report Encoding| SHIFT-JIS for Japanese character encoding. EUC-JP for extended Unix Code, primarily for Japanese, Korean, and simplified Chinese.|
 |CSV Separator Character|The character you want to use to separate CSV values.|
 

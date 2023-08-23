@@ -1,7 +1,6 @@
 ---
 description: All bookmarked reports and dashboard reports are now listed as dimensions in the Request Wizard Step 1 and can be imported as report builder requests.
 title: Import bookmarked reports and dashboard reportlets
-uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
@@ -14,7 +13,7 @@ When you select a bookmarked report, the Request Wizard populates all the dimens
 
 This is how the Request Wizard Step 1 shows a dashboard and its reportlets:
 
-![](assets/import_dashboard_reportlet.png)
+![Screenshot showing the Request Wizard Step 1 of 2 highlighting Retrieve your Dashboards and Retrieve your Bookmarks.](assets/import_dashboard_reportlet.png)
 
 When you click **[!UICONTROL Retrieve your Dashboards]** or **[!UICONTROL Retrieve your Bookmarks]**, your existing dashboard and/or bookmark data is retrieved and pasted in the worksheet.
 

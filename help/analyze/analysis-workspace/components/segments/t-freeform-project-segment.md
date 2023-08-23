@@ -1,8 +1,7 @@
 ---
 description: Use segments in Analysis Workspace.
 title: Segments
-uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-feature: Workspace Basics
+feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 ---
@@ -14,11 +13,9 @@ You can create different types of segments in Workspace, depending on how comple
 | Segment type | Created where? | Applicable where? | When to use |
 | --- | --- | --- | --- |
 | Component-list segment | Click +, which takes you to the [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | All your Workspace projects | For more complex segments, sequential segments |
-| Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Project only, but can save and add to your segment list. | Flexibility to add/edit one or more rules |
-| Ad-hoc segments: |  |  |  | 
-|  - Ad-hoc Workspace project segment | [Drag and drop into segment drop zone in a project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Project only, but can save and add to your segment list. | For single-rule segments |  
-|  - Calculated metrics-based segment | [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | To individual calculated metric | Apply segment/s within your metric definition |
-|  - VRS-based segment | [Virtual report suite builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | To individual virtual report suite | Apply segment/s within your VRS definition |
+| Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Project only, but can save and add to your segment list. | Can be used for ad hoc single-rule segments (with drag-and-drop), or to add/edit multiple rules (by clicking the Segment icon) | 
+| Calculated metrics-based segment | [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | To individual calculated metric | Apply segment/s within your metric definition |
+| VRS-based segment | [Virtual report suite builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | To individual virtual report suite | Apply segment/s within your VRS definition |
 
 ## Videos
 
@@ -39,7 +36,6 @@ Rolling date ranges in segments:
 You can create different types of segments in Analysis Workspace:
 
 * [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
-* [Ad-hoc segments](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
 * Regular component-list segments that you create in the Segment Builder and that end up in the segment library (see below)
 
 ### Create component-list segments {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
@@ -72,7 +68,7 @@ Several other methods exist for applying segments to a freeform project.
 | Create segment from selection | Create an inline segment. This segment applies only to the open project and is not saved as an Analytics segment. 1. Select rows.  2. Right-click the selection.  3. Click *Create segment from selection*. |
 | Components > New Segment | Displays the Segment Builder. See [Segment Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) for more information about segmentation. |
 | Share > Share Project or Share > Curate Project Data | In [Curate and Share](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), learn how segments that you apply to the project are available in shared analysis for the recipient. |
-| Use Segments as Dimensions | Video: [Using Segments as Dimensions in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=en) |
+| Use Segments as Dimensions | Video: [Using Segments as Dimensions in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html) |
 
 ## Segment IQ
 

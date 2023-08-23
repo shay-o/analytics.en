@@ -1,9 +1,7 @@
 ---
 description: Non-classified keys are grouped in classification reports as a single line item labeled None. It can be useful to rename None to something more descriptive.
-subtopic: Classifications
 title: Non-classified keys
-feature: Admin Tools
-uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
+feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 ---
 # Non-classified keys
@@ -24,7 +22,7 @@ t_rename_classification_none.xml
 
  -->
 
-Steps that describe how to rename a non-classified key that displays as *`none`* in reporting.
+To rename a non-classified key that displays as *`none`* in reporting:
 
 1. Using the importer, export classifications to a local file.
 1. Add a row to the file, and type `~none~` in the Key column.

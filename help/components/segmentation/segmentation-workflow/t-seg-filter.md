@@ -2,7 +2,6 @@
 description: Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
 title: Filter segments
 feature: Segmentation
-uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 ---
 # Filter segments
@@ -11,11 +10,11 @@ Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favor
 
 Filtering makes it easier to search for segments in the segment rail.
 
-1. In the Segment Manager, click the **[!UICONTROL Filters]** icon:  ![](assets/filter_icon.png)
+1. In the Segment Manager, click the **[!UICONTROL Filters]** icon:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 
-1. The following filters are available:
+2. The following filters are available:
 
    |  Filter Name  | Description  |
    |---|---|

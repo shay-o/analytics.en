@@ -1,10 +1,10 @@
 ---
-description: How to create an Analytics dashboards scorecard
-title: Create a scorecard
+description: Executive users may need some additional assistance to access and use the app. This section provides information to help you provide that assistance.
+title: Set up executive users with the app
 feature: Analytics Dashboards
 role: User, Admin
+exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
 ---
-
 # Set up executive users with the app
 
 In some cases, executive users may need some additional assistance to access and use the app. This section provides information to help you provide that assistance.
@@ -108,4 +108,4 @@ Verify that the executive user can log into the right Adobe Analytics instance a
 
 >[!IMPORTANT]
 >
->Starting in October 2020, Adobe is gradually rolling out a series of enhancements to optimize the performance of the “Adobe Analytics dashboards” app. These enhancements center on caching historic Analytics data that is used to populate scorecards with dates (excluding the current day). This data will be cached for up to 24 hours in a secure Microsoft Azure public cloud storage account. Please contact your CSM if you would like to opt out of these performance enhancement features.
+>Starting in October 2020, Adobe is gradually rolling out a series of enhancements to optimize the performance of the “Adobe Analytics dashboards” app. These enhancements center on caching historic Analytics data that is used to populate scorecards with dates (excluding the current day). This data will be cached for up to 24 hours in a secure Microsoft Azure public cloud storage account. Please contact your Adobe Account Team if you would like to opt out of these performance enhancement features.

@@ -2,10 +2,11 @@
 title: Import Paid Search metrics
 description: Steps to configure Adobe Analytics to track your paid search metrics (e.g., Google AdWords, MSN, Yahoo, etc.) using Data Sources.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
+feature: Data Sources
 ---
 # Import [!UICONTROL Paid Search] metrics using [!UICONTROL Data Sources]
 
-For many marketing organizations, paid search is one of the most valuable and reliable ways both​ to reach new customers and to retain existing ones. The [!UICONTROL Data Sources] capability in Adobe Analytics makes it easy to import advanced paid search data from digital advertising platforms like Google AdWords. You can  integrate it with the rest of your marketing data, alongside on-site behavioral and customer attribute data, to allow you better insights into your organization's paid search efforts.
+For many marketing organizations, paid search is one of the most valuable and reliable ways both​ to reach new customers and to retain existing ones. The [!UICONTROL Data Sources] capability in Adobe Analytics makes it easy to import advanced paid search data from digital advertising platforms like Google AdWords. You can integrate it with the rest of your marketing data, alongside on-site behavioral and customer attribute data, to allow you better insights into your organization's paid search efforts.
 
 These steps show you how to configure an integration with AdWords to import keyword data as well as metrics such as impressions, clicks, cost per click, and more.
 
@@ -59,7 +60,7 @@ Our first step is to prepare Adobe Analytics to receive the metrics. To do this,
 1. Click **[!UICONTROL Next]** and name your data source. This name appears in the Data Source Manager.
 1. Accept the service agreement and click **[!UICONTROL Next]**.
 1. Select the three standard metrics: [!UICONTROL Impressions], [!UICONTROL Clicks] and [!UICONTROL Total Cost] and click **[!UICONTROL Next]**.
-1. Now “map” this new data source to the custom events we created in [Configure Success Events](/help/admin/admin/c-success-events/t-success-events.md).
+1. Now "map" this new data source to the custom events we created in [Configure Success Events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
 
     ![Mapping](assets/data-source-mapping.png)
 
@@ -111,7 +112,7 @@ Go back to the Data Source wizard for instructions and upload the file via FTP:
 
 Adding calculated metrics will be helpful when making pay-per-click decisions.
 
-For example, you could add these [calculated metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=en#calculated-metrics):
+For example, you could add these [calculated metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics):
 
 | Name | Formula | Metric Type | Description |
 | --- | --- | --- | --- |

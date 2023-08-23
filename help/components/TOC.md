@@ -3,17 +3,19 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 breadcrumb-title: Components Guide
-user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
+user-guide-description: Manage data using components like Segments, Calculated Metrics, Virtual Report Suites, Marketing Channels, and Classifications. Learn about Cross-Device Analytics.
 ---
 
-# [!DNL Analytics] Components Guide {#components}
+# [!DNL Adobe Analytics] Components Guide {#components}
 
 + [Analytics Components Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensions {#dimensions}
   + [Dimensions overview](dimensions/overview.md)
   + [Dimension compatibility](dimensions/compatibility.md)
   + [All search page rank](dimensions/all-search-page-rank.md)
   + [AM/PM](dimensions/am-pm.md)
+  + [Bot name](dimensions/bot-name.md)
   + [Browser height](dimensions/browser-height.md)
   + [Browser type](dimensions/browser-type.md)
   + [Browser width](dimensions/browser-width.md)
@@ -23,6 +25,8 @@ user-guide-description: Help organize your data using components such as segment
   + [Cities](dimensions/cities.md)
   + [Color depth](dimensions/color-depth.md)
   + [Connection type](dimensions/connection-type.md)
+  + [Consent management opt-in](dimensions/cm-opt-in.md)
+  + [Consent management opt-out](dimensions/cm-opt-out.md)
   + [Cookie support](dimensions/cookie-support.md)
   + [Countries](dimensions/countries.md)
   + [Custom link](dimensions/custom-link.md)
@@ -43,6 +47,7 @@ user-guide-description: Help organize your data using components such as segment
   + [Exit link](dimensions/exit-link.md)
   + [First touch channel](dimensions/first-touch-channel.md)
   + [First touch channel detail](dimensions/first-touch-detail.md)
+  + [Hierarchy](dimensions/hierarchy.md)
   + [Hit depth](dimensions/hit-depth.md)
   + [Hit type](dimensions/hit-type.md)
   + [Hour of day](dimensions/hour-of-day.md)
@@ -101,6 +106,8 @@ user-guide-description: Help organize your data using components such as segment
   + [Average page views per visit](metrics/average-page-views-per-visit.md)
   + [Average session length](metrics/average-session-length.md)
   + [Average time on site](metrics/average-time-on-site.md)
+  + [Bot occurrences](metrics/bot-occurrences.md)
+  + [Bot page views](metrics/bot-page-views.md)
   + [Bounce rate](metrics/bounce-rate.md)
   + [Bounces](metrics/bounces.md)
   + [Cart additions](metrics/cart-additions.md)
@@ -142,7 +149,8 @@ user-guide-description: Help organize your data using components such as segment
   + [Visits](metrics/visits.md)
 + Segmentation {#segmentation}
   + [Analytics segmentation](segmentation/seg-home.md)
-  + [About segments and containers](segmentation/seg-overview.md)
+  + [About segments](segmentation/seg-overview.md)
+  + [About segment containers](segmentation/seg-containers.md)
   + [Segmentation features in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
   + Segmentation workflow {#segmentation-workflow}
     + [Segmentation workflow overview](segmentation/segmentation-workflow/seg-workflow.md)
@@ -163,37 +171,37 @@ user-guide-description: Help organize your data using components such as segment
     + [Data Warehouse Segment Compatibility](segmentation/seg-reference/seg-compatibility.md)
     + [Segment Rights by Role](segmentation/seg-reference/seg-rights.md)
     + [Troubleshooting](segmentation/seg-reference/c-troubleshooting.md)
-  + [Frequently asked questions](segmentation/seg-transition.md)
+  + [FAQs on managing legacy segments ](segmentation/seg-transition.md)
   + [Best practices](segmentation/best-practices.md)
 + Calculated Metrics {#calculated-metrics}
-  + [Calculated and Advanced Calculated (Derived) Metrics](c-calcmetrics/cm-overview.md)
+  + [Calculated and Advanced Calculated (Derived) metrics](c-calcmetrics/cm-overview.md)
   + [How-to videos](c-calcmetrics/cm-videos.md)
-  + Calculated Metrics Workflow {#calcmetric-workflow}
+  + Calculated metrics workflow {#calcmetric-workflow}
     + [Calculated metrics workflow](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
     + [Find metrics](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-    + [Build Metrics](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-    + [Metric Type and Attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-    + [Build a simple "Page Views per Visits" metric](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+    + [Build metrics](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+    + [Build a "Page Views per Visits" metric](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+    + [Build an "Order Assists" metric](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+    + [Build a "Participation" metric](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+    + [Metric type and attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
     + [Segmented metrics](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
     + [Stack and replace segments](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
     + [Filtered and weighted metrics](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-    + [Order Assists Metric](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
     + [Use functions](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-    + [Participation Metric](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
     + [Tag calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
     + [Approve calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
     + [Share calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-    + [Calculated Metric Manager](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+    + [Calculated metrics manager](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
   + Metrics reference {#calcmetrics-reference}
     + [Reference: basic functions](c-calcmetrics/cm-reference/cm-functions.md)
     + [Reference: advanced functions](c-calcmetrics/cm-reference/cm-adv-functions.md)
     + [Metric compatibility](c-calcmetrics/cm-compatibility.md)
     + [Calculated metrics: role-based rights](c-calcmetrics/cm-role-based-rights.md)
     + [Calculated metrics totals](c-calcmetrics/cm-totals.md)
+    + [Default calculated metrics](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Virtual Report Suites {#virtual-report-suites}
   + [Virtual report suites overview](vrs/vrs-about.md)
   + [Virtual report suite - component curation](vrs/vrs-components.md)
-  + [VRS support in Mobile Services](vrs/vrs-mobile-services.md)
   + [Context-aware sessions](vrs/vrs-mobile-visit-processing.md)
   + [Report time processing](vrs/vrs-report-time-processing.md)
   + [A4T considerations](vrs/vrs-a4t.md)
@@ -220,6 +228,24 @@ user-guide-description: Help organize your data using components such as segment
   + [Intelligent alerts - use cases](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
   + [Classifications overview](classifications/c-classifications.md)
+  + Classification sets {#sets}
+    + [Classification sets overview](classifications/sets/overview.md)
+    + Manage classification sets {#manage}
+      + [Classification set manager](classifications/sets/manage/set-manager.md)
+      + [Create a classification set](classifications/sets/manage/create.md)
+      + [Classification set settings](classifications/sets/manage/settings.md)
+      + [Classification set schema](classifications/sets/manage/schema.md)
+      + [Classification set rules](classifications/sets/manage/rules.md)
+    + [Classification set jobs manager](classifications/sets/job-manager.md)
+    + Classification set consolidations {#consolidations}
+      + [Classification set consolidations manager](classifications/sets/consolidations/manage.md)
+      + [Classification set consolidations process](classifications/sets/consolidations/process.md)
+  + Classification Rule Builder {#classifications-rulebuilder}
+    + [Classification Rule Builder workflow](classifications/crb/classification-rule-builder.md)
+    + [Classification rule sets](classifications/crb/classification-rule-set.md)
+    + [Classification rules](classifications/crb/classification-quickstart-rules.md)
+    + [Classification rules - definitions](classifications/crb/classification-rule-definitions.md)
+    + [Sub-classifications and the Rule Builder](classifications/crb/sub-classification-rule-builder.md)
   + Classifications importer {#classifications-importer}
     + [Classifications importer - overview](classifications/importer/c-working-with-saint.md)
     + [Classification data files](classifications/importer/c-saint-data-files.md)
@@ -234,26 +260,22 @@ user-guide-description: Help organize your data using components such as segment
     + [FTP export](classifications/importer/ftp-export.md)
     + [Processing time](classifications/importer/processing-time.md)
     + [Troubleshooting](classifications/importer/troubleshooting.md)
-  + Classification Rule Builder {#classifications-rulebuilder}
-    + [Classification Rule Builder workflow](classifications/crb/classification-rule-builder.md)
-    + [Classification rule sets](classifications/crb/classification-rule-set.md)
-    + [Classification rules](classifications/crb/classification-quickstart-rules.md)
-    + [Classification rules - definitions](classifications/crb/classification-rule-definitions.md)
-    + [Sub-classifications and the Rule Builder](classifications/crb/sub-classification-rule-builder.md)
   + [Sub-classifications](classifications/c-sub-classifications.md)
   + [Classifications FAQ](classifications/faq.md)
++ Locations {#locations}
+  + [Locations manager](/help/components/locations/locations-manager.md)
+  + [Cloud import accounts](/help/components/locations/configure-import-accounts.md)
+  + [Cloud import locations](/help/components/locations/configure-import-locations.md)
 + [Calendar events](t-calendar-event.md)
++ [Scheduled projects](scheduled-projects-manager.md)
++ [Scheduled reports queue](scheduled-reports-admin.md)
 + Real-time reporting {#real-time-reporting}
   + [Real-time reporting overview](c-real-time-reporting/realtime.md)
   + [Configure real-time reports](c-real-time-reporting/t-realtime-admin.md)
   + [Supported real-time metrics and dimensions](c-real-time-reporting/realtime-metrics.md)
 + Marketing Channels {#marketing-channels}
-  + [Get Started with Marketing Channels](c-marketing-channels/c-getting-started-mchannel.md)
+  + [Get started with Marketing Channels](c-marketing-channels/c-getting-started-mchannel.md)
   + [Attribution IQ with Marketing Channels](c-marketing-channels/mchannel-best-practices.md)
-  + [Manage marketing channels](c-marketing-channels/c-channels.md)
-  + [Processing rules for Marketing Channels](c-marketing-channels/c-rules.md)
-  + [Classifications in Marketing Channels](c-marketing-channels/classifictions-mchannel.md)
-  + [Visitor engagement expiration](c-marketing-channels/visitor-engagement.md)
   + [Analyze Marketing Channels](c-marketing-channels/analyze-mc.md)
   + [Marketing Channels permissions](c-marketing-channels/c-channel-report-access.md)
   + [Marketing Channels FAQs and examples](c-marketing-channels/c-faq.md)

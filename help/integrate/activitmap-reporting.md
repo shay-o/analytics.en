@@ -2,7 +2,6 @@
 description: Administrative steps for enabling Activity Map reporting in Analytics.
 title: Activity Map reporting
 feature: Activity Map
-uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
 ---
 # Activity Map reporting
@@ -24,3 +23,5 @@ Enables Analytics to collect user activity served up from Activity Map (formerly
   |  Activity Map Links & Region  | Lists all collected links with their region across the whole web site.  |
 
 For data to be populated, refer to the [Activity Map documentation](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) for complete implementation instructions.
+
+<!--The content in this article is duplicated with the content in the Admin guide (activity-map.md)-->

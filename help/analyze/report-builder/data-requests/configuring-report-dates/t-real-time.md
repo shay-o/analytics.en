@@ -8,7 +8,7 @@ exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
 ---
 # Configure a real-time request
 
-Steps that describe how to configure real-time request dates.
+To configure real-time request dates:
 
 1. Ensure that real-time reporting is enabled in the [Admin Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) in marketing reports & analytics.
 1. On the [!UICONTROL Request Wizard: Step 1], click **[!UICONTROL Real-Time Report]** > **[!UICONTROL `<report type>`]**
@@ -17,7 +17,7 @@ Steps that describe how to configure real-time request dates.
 
 1. Select a time range in minutes or hours.
 
-   ![Step Result](assets/real_time_select_date.png)
+   ![Screenshot showing the Select Time Range options with Last 60 Minutes selected.](assets/real_time_select_date.png)
 
    Real-time reporting is available only for the last 20 hours. For granularity, you have options of selecting from 1 minute granularity to 30 minutes.
 1. Click **[!UICONTROL Next]** and continue [configuring the request layout](/help/analyze/report-builder/layout/layout.md).

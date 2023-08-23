@@ -1,6 +1,7 @@
 ---
-title: Single page visits
+title: Single page visits (metrics)
 description: The number of times that the 'Page' dimension item did not change in a visit.
+feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 ---
 # Single page visits
@@ -17,4 +18,4 @@ See [Single access](single-access.md) for a comparison between metrics.
 
 ## Count repeat instances
 
-This setting specifies whether repeat instances are counted in reports. For more information see [Count repeat instances](/help/components/metrics/count-repeat-instances.md). 
+This setting specifies whether repeat instances are counted in reports. For more information see [Count repeat instances](/help/components/metrics/count-repeat-instances.md).

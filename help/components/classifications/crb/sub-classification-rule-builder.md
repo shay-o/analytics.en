@@ -1,8 +1,9 @@
 ---
 description: You cannot combine the Classification Rule Builder with sub-classifications.
 title: Sub-classifications and the Rule Builder
+feature: Classifications
+exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 ---
-
 # Sub-classifications and the Rule Builder
 
 You can combine the Classification Rule Builder with sub-classifications if you ensure that every sub classification has a parent value.
@@ -37,7 +38,7 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
    Example:
 
-   ![Step Info](assets/sub_class_create.png)
+   ![Step Info](/help/admin/admin/assets/sub_class_create.png)
 
 1. In the [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 
