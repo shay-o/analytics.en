@@ -18,18 +18,20 @@ Adobe offers three main ways to send data to Experience Edge:
 
 ## How Adobe Analytics handles Experience Edge data
 
-Data send to Experience Edge has to conform to schemas based on [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en). XDM gives you flexibility in what fields are defined as part of events. At the time events reach Adobe Analytics, these events are translated into more structured data that Adobe Analytics can handle: page views or link events.
+Data sent to Experience Edge has to conform to schemas based on [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en). XDM gives you flexibility in what fields are defined as part of events. When events are routed from Experienc Edge to Adobe Analytics, they are translated into Adobe Analytics' native data structure. You can see how XDM fields are mapped to the Adobe Analytics data structure [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en).
 
- XDM does not itself prescribe how to define page views or link events, nor does it instruct Adobe Analytics how to treat its payload. For example, certain out of the box XDM fields that appear to be related to page views or link events, like `eventType`, `web.webPageDetails.pageViews`, or `web.webInteraction.linkEvents` are completely implementation agnostic and have no relevance for Adobe Analytics.
+### Defining page views and link events
 
-To properly handle page views and link events, the following logic is applied to data send to the Adobe Experience Edge network and forwarded to Adobe Analytics.
+The two main kinds of events in Adobe Analytics are page views and link events. Those events are defined based on certain combinations of XDM fields that correspond to Analytics fields set by AppMeasurement when making pageview (aka `s.t()` ) and link event (aka `s.tl()` )  calls.
+
+The following logic is applied to data sent to the Adobe Experience Edge and forwarded to Adobe Analytics.
 
 | XDM payload contains... | Adobe Analytics... |
 |---|---|
 | `web.webPageDetails.name` or `web.webPageDetails.URL` and no `web.webInteraction.type` | considers payload a **page view** |
-| `web.webInteraction.type` and (`web.webInteraction.name` or `web.webInteraction.url`) | considers payload a **link event** |
 | `web.webInteraction.type` and (`web.webPageDetails.name` or `web.webPageDetails.url`) | considers payload a **link event** <br/>`web.webPageDetails.name` and `web.webPageDetails.URL` are set to `null` |
-| no `web.webInteraction.type` and (no `webPageDetails.name` and no `web.webPageDetails.URL`) | drops the payload and ignores the data |
+
+Note that certain XDM fields that may appear to be related to page views or link events, like `eventType`, `web.webPageDetails.pageViews`, or `web.webInteraction.linkEvents` are completely implementation agnostic and have no relevance for Adobe Analytics.
 
 {style="table-layout:auto"}
 
