@@ -1,6 +1,7 @@
 ---
 title: All search page rank
 description: Determine which page on a search engine a visitor clicked through to your site.
+feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 ---
 # All search page rank
@@ -9,7 +10,7 @@ The 'All search page rank' dimension provides insight on which page of search re
 
 ## Populate this dimension with data
 
-Getting this dimension to work only requires that your report suite have [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) set up correctly. AppMeasurement automatically populates this dimension without any implementation code changes.
+Getting this dimension to work only requires that your report suite have [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) set up correctly. AppMeasurement automatically populates this dimension without any implementation code changes.
 
 ## Dimension items
 

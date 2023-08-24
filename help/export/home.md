@@ -2,6 +2,7 @@
 title: Analytics Export Guide
 description: This guide outlines ways to get data out of Adobe Analytics using data feeds and Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
+feature: Data Feeds, FTP Export, Data Warehouse
 ---
 # Analytics Export Guide
 
@@ -11,6 +12,7 @@ This guide outlines ways to get data out of Adobe Analytics. It includes:
 
 * **Data feeds:** Receive an hourly or daily export of raw data. Every row is an individual hit, and every column is a variable. Data feeds are typically sent to FTP sites.
 * **Data Warehouse:** Use a request wizard to retrieve a spreadsheet output of data. Data Warehouse uses a different processing architecture to allow any number of rows and any number of unique values.
+* **FTP and SFTP:** Best practices for using FTP and SFTP with Adobe
 
 Here is a video overview of Adobe Analytics:
 
@@ -28,7 +30,7 @@ Here is a video overview of Adobe Analytics:
 
 ## Key Analytics resources
 
-* [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contact Customer Care](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

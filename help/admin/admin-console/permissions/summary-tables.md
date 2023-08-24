@@ -1,11 +1,12 @@
 ---
 title: Adobe Analytics Permissions - summary tables
-description: Tables that summarize the available Adobe Analytics permissions in Admin Console.
+description: Tables that summarize the available Adobe Analytics permissions in Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
+feature: Admin Tools
 ---
-# Adobe Analytics Permissions - summary tables
+# Analytics Permissions in the Admin Console
 
-Use the following summary tables to identify Adobe Analytics permissions in the Admin Console, by logical groupings.
+Use the following summary tables to identify Adobe Analytics permissions in the Adobe Admin Console, by logical groupings.
 
 ## Report Suite Tools
 
@@ -67,7 +68,7 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 
 | Analytics Tool | Administration | Access Controls | Reports-only Features | Deprecated | Description |
 | --- | --- | --- | --- | --- | --- |
-| Code Manager | x |  |  |  | Kept around for legacy purposes. Grants access to Admin > All admin > Code manager. In most cases, use the libraries included in the Data Collection UI instead. |
+| Code Manager | x |  |  |  | Kept around for legacy purposes. Grants access to Admin > All admin > Code manager. In most cases, use the libraries included in the Adobe Analytics extension within Adobe Experience Platform Data Collection instead. |
 | Code Manager - Web Services | x |  |  |  | Grants access to the Code Manager via the 1.4 API. |
 | Hide Report Suites | x |  |  |  | Grants access to Admin > All admin > Company settings > Hide Report Suites. Grants the ability to hide any report suite in the organization, regardless of their report suite access. |
 | Integrations (Create) | x |  |  |  | Grants access to Admin > All admin > Data connectors, and allows the user to create data connectors. |
@@ -81,6 +82,7 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 | Support | x |  |  |  | Grants access to Admin > All admin > Company settings > Support Information. |
 | Traffic Management | x |  |  |  | Grants access to Admin > All admin > Traffic management.  |
 | Web Services  | x |  |  |  | Grants access to Admin > All admin > Company settings > Web Services.  |
+| Share Project Links With Anyone | x |  |  |  |  Grants access to users to Share with anyone under a Workspace project -> Share -> Share with anyone. |
 | Activity Map |  | x |  |  | Grants access to Tools > Activity Map. Allows the user to use the Activity Map extension. |
 | Ad Hoc Analysis License Users |  | x |  |  | Ad Hoc Analysis has been end-of-lifed. [More info](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Analysis Workspace Access |  | x |  |  | Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports & Analytics Access to use Adobe Analytics. |

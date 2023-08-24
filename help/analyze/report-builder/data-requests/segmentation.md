@@ -1,7 +1,6 @@
 ---
 description: How to add, edit, apply, and filter Adobe Analytics segments in Report Builder.
-title: Manage segments
-uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
+title: Manage segments (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
@@ -12,7 +11,7 @@ How to add, edit, apply, and filter Adobe Analytics segments in Report Builder.
 
 Report Builder features a segmentation panel in Step 1 of the Request Wizard that lets you create and manage segments.
 
-![](assets/seg_dialog.png)
+![Screenshot showing the Segment options to Add, Edit, or Clear segments and highlighting the Control, Filter, and Refresh icons.](assets/seg_dialog.png)
 
 ## Add or edit segments {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -36,7 +35,7 @@ You may have specific combinations of report dimensions that you would like to t
 1. Select the report output items you want to turn into a segment.
 1. Right-click to select **[!UICONTROL Create In-Context Segment in]** and specify the right container (Hits Container, Visits Container, Visitor Container).
 
-   ![](assets/seg_in_context.png)
+   ![Screenshot showing Create In-Context Segment in selected and available container options.](assets/seg_in_context.png)
 
    For more information on containers, see the [Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 
@@ -47,15 +46,15 @@ You may have specific combinations of report dimensions that you would like to t
 
 ## Search for and apply segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Any segments that were created in Reports & Analytics, Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ( ![](assets/refresh_icon.png).
+Any segments that were created in Reports & Analytics, Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 You can apply one or multiple segments to any given request. This includes sequential segments.
 
 1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]** box to display all the segments.
 
-   ![](assets/seg_list.png)
-
 1. Check which segment(s) you want to apply.
+
+   ![Screenshot showing selected segments.](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -63,7 +62,7 @@ You can apply one or multiple segments to any given request. This includes seque
 
 ## Filter segments {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filter** segments by clicking on the Filter icon:  ![](assets/segment_filter.png)
+**Filter** segments by clicking on the Filter icon:  ![Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 Available filters include: 
 
@@ -81,24 +80,26 @@ Available filters include:
 
 Adding a segment control lets you switch segments from within a workbook instead of having to go into the Request Wizard.
 
-1. Click the Control icon ( ![](assets/control_icon.png)) next to the segment drop-down.
-
-   ![](assets/seg_control.png)
+1. Click the Control icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) next to the segment drop-down.
 
 1. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
+
+   ![Screenshot of the Control Settings dialog with all setments selected.](assets/seg_control.png)
+
 1. Notice the option **[!UICONTROL Automatically refresh linked requests upon item selection]**.
 
     * If checked, all requests that use this control are refreshed.
     * If not checked, the associated request parameters are updated, but the requests are not refreshed.
 
 1. Specify the upper left cell location of the segment control.
+
 1. Click **[!UICONTROL OK]** and the segment control appears in the specified location.
 
-   ![](assets/seg_control2.png)
+   ![Screenshot showing the Choose Segment field drop-down field.](assets/seg_control2.png)
 
 ## Refresh the list of segments {#section_22E4A86789444B4A998532396B476EFB}
 
-Any time you add a new segment or edit an existing one, you should click the Refresh icon ( ![](assets/refresh_icon.png) to refresh the cached list of segments.
+Any time you add a new segment or edit an existing one, you should click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) to refresh the cached list of segments.
 
 ## Manage segments across requests {#section_C3D63FCBE1A94369A319243313B03C93}
 
@@ -109,7 +110,7 @@ Report Builder 5.4 lets you add, remove, replace, and replace all segment(s) wit
 1. Select multiple requests in a workbook.
 1. Right-click and select **[!UICONTROL Edit Requests]** > **[!UICONTROL By Segment]**.
 
-   ![](assets/edit_by_segment.png)
+   ![Screenshot showing Edit Requests and By Segment selected.](assets/edit_by_segment.png)
 
 1. In the Edit Group dialog, select one of the four options: 
 

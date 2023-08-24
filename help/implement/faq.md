@@ -1,6 +1,7 @@
 ---
 title: Implementation FAQ
 description: Frequently asked questions about implementation, and links to more information.
+feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 ---
 # FAQs about Analytics implementation
@@ -27,7 +28,7 @@ AppMeasurement creates an image object within the HTML page, and the browser the
 
 Sometimes an organization would like to remove an implementation due to contract expiration or to reduce the number of server calls.
 
-* **Implementations using tags in Adobe Experience Platform**: Disable or uninstall the Adobe Analytics extension in the [!UICONTROL Extensions] tab, then publish.
+* **Implementations using Adobe Experience Platform Data Collection**: Disable or uninstall the applicable Adobe Analytics, Web SDK, or Mobile SDK extension in the [!UICONTROL Extensions] tab, then publish.
 * **Legacy AppMeasurement implementations**: Replace the entire contents of your `s_code.js` file with the following line of code:
 
 ```js

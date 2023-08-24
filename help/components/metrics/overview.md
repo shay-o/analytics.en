@@ -1,6 +1,7 @@
 ---
 title: Metrics overview
 description: View quantities of dimension items or data over time.
+feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 ---
 # Metrics overview
@@ -15,13 +16,15 @@ For example, if you combined the 'Page' dimension with the 'Visits' metric, you 
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-If you cannot find a given metric help page, it is likely either a [custom event](custom-events.md) or a [calculated metric](../c-calcmetrics/cm-overview.md).
+If you cannot find the help page for a given metric, it is likely either a [custom event](custom-events.md) or a [calculated metric](../c-calcmetrics/cm-overview.md).
 
 * If the metric is a custom event, consult an Analytics admin within your organization, or the report suite's [solution design document](/help/implement/prepare/solution-design.md).
 * If the metric is a calculated metric, click the information icon to determine its formula.
 
 ## Add metric descriptions
 
-Here is a video that describes how to add metric (and dimension) descriptions in Adobe Analytics:
+Analytics administrators can add descriptions for metrics and other components either within the Report Suite or directly within Analysis Workspace. For information about how to add descriptions to metrics, see [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+## Use metrics in Analysis Workspace
+
+For information about how to use metrics in Analysis Workspace, see "Use metrics in Analysis Workspace" in [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md).

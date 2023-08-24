@@ -1,22 +1,25 @@
 ---
 title: getTimeToComplete
 description: Measure the amount of time taken to complete a task.
+feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 ---
 # Adobe plug-in: getTimeToComplete
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `getTimeToComplete` plug-in tracks the time a user takes to complete a process on a site. The "clock" begins when the `start` action is called and ends when the `stop` action is called. Adobe recommends using this plug-in if there is a workflow on the site that takes some time to complete and you would like to know how much time visitors take to complete it. It is unnecessary to use this plug-in if the workflow on your site takes a short period of time (less than 3 seconds) because the granularity is only down to the full second.
 
-## Install the plug-in using tags in Adobe Experience Platform
+## Install the plug-in using the Web SDK or Web SDK extension
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+This plug-in is not yet supported for use within the Web SDK.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired property.
+## Install the plug-in using the Adobe Analytics extension
+
+Adobe offers an extension that allows you to use most commonly-used plug-ins with Adobe Analytics.
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
 1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
@@ -29,11 +32,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Install the plug-in using custom code editor
 
-If you do not want to use the plug-in extension, you can use the custom code editor.
+If you do not want to use the Common Analytics Plugins plug-in extension, you can use the custom code editor.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
 1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
@@ -55,7 +58,8 @@ The `getTimeToComplete` function uses the following arguments:
 
 * **`sos`** (optional, string): Set to `"start"` when you want to start the timer. Set to `"stop"` when you want to stop the timer. Defaults to `"start"`.
 * **`cn`** (optional, string): The name of the cookie to store the start time. Defaults to `"s_gttc"`.
-* **`exp`** (optional, integer): The number of days that the cookie (and timer) expires. Defaults to `0`, which represents the end of the browser session.
+* **`exp`** (optional, integer): The number of seconds, hours or days (depending on the `tp` time-parting argument) that the cookie (and timer) expires. Defaults to 30 minutes.
+* **`tp`** (optional, string): The time-parting string that the cookie (and timer) expires, used with the `exp` argument. Set to "d" for days, "h" for hours, or "s" for seconds. If this is not set, the cookie (and timer) expiry defaults to 30 minutes, regardless of what the `exp` argument has been set to.
 
 Calling this function returns a string that contains the number of days, hours, minutes and/or seconds it took between the `"start"` and `"stop"` action.
 
@@ -73,8 +77,8 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
 // Stores each timer in their own respective cookies so they run independently
 if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
 if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
-if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
-if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7, "d");
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7, "d");
 ```
 
 ## Version History

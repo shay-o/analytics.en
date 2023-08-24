@@ -1,12 +1,14 @@
 ---
 description: Steps to add calendar events, and to manage shared events.
-title: Calendar events
+title: Add and manage calendar events
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 feature: Calendar
 role: User, Admin
 exl-id: e89be5ce-3ec0-4b2d-8574-7bd2041ed18a
 ---
 # Calendar events
+
+{{ra-eol}}
 
 Steps to add calendar events, and to manage shared events.
 

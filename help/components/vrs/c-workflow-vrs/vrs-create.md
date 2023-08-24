@@ -2,8 +2,7 @@
 description: Before you start creating virtual report suites, here are a few things to keep in mind.
 keywords: Virtual Report Suite
 title: Create virtual report suites
-feature: Reports & Analytics Basics
-uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
+feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 ---
 # Create virtual report suites
@@ -57,7 +56,7 @@ Here is a video on how to adjust a visit definition in a virtual report suite:
 ![](assets/components.png)
 
 1. On the [!UICONTROL Components] tab, select the checkbox to apply curation to include, exclude and rename components for this virtual report suite in Analysis Workspace.
-   For more information on VRS curation, see [Virtual Report Suite Component Curation](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
+   For more information on VRS curation, see [Virtual Report Suite Component Curation](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
 
 1. Drag components (dimensions, metrics, segments, or date ranges) that you want to include in the VRS into the [!UICONTROL Included Components] section.
 

@@ -1,6 +1,7 @@
 ---
 title: Adobe Analytics and browser cookies
 description: Learn how tracking prevention measures affect third-party and first-party cookies set by Adobe Analytics.
+feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 ---
 # Adobe Analytics and browser cookies
@@ -10,7 +11,7 @@ This document explains how major browsers' tracking prevention measures affect t
 ## How have browsers limited the usage of cookies?
 
 >[!NOTE]
->[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en#cda) and [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#comparing-cja-to-traditional-adobe-analytics) can stitch across cookies using a person ID, such as a hashed login id, if one is available.
+>[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda) and [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) can stitch across cookies using a person ID, such as a hashed login id, if one is available.
 
 ### Third-party cookie limitations
 

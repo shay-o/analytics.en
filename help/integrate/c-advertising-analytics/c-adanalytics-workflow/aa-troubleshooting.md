@@ -1,7 +1,7 @@
 ---
 description: Troubleshoot and fix issues related to Advertising Analytics.
 title: Troubleshoot Advertising Analytics
-uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
+feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
 ---
 # Troubleshoot Advertising Analytics
@@ -23,7 +23,7 @@ You are trying to [set up a new Advertising Account](/help/integrate/c-advertisi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. The Report suite is not mapped to the Experience Cloud Org ID of the login user. </p> </td> 
-   <td colname="col2"> <p>Contact Customer Care to map the report suite to an IMS org.</p> </td> 
+   <td colname="col2"> <p>Contact Customer Care to map the report suite to an organization ID.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. The Report Suite is not provisioned for Advertising Analytics reporting. </p> </td> 

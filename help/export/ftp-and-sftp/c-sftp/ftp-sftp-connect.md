@@ -2,24 +2,33 @@
 description: Instructions to set up secure transfer with Adobe FTP servers.
 keywords: ftp;sftp
 title: Connect to an Adobe FTP account with SFTP
-uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
+feature: FTP Export
 exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
 ---
-# Connect to an Adobe FTP account with SFTP
+# Connect to an FTP account with SFTP
 
-Instructions to set up secure transfer with Adobe FTP servers.
+To set up secure transfer with FTP:
 
-1. Request an Adobe hosted FTP account (50 MB quota).
-1. Create Public/Private RSA keys. In Linux, run: 
+1. (Conditional) If you want to set up secure transfer with Adobe FTP servers:
 
-   ```
-   ssh-keygen -t rsa
-   ```
+   1. Request an Adobe hosted FTP account (50 MB quota).
 
-   If you are in a Windows environment, use puttyGen to create the keys.
+   1. Create Public/Private RSA keys. 
+   
+      * In Linux environment, run: 
+
+        ```
+        ssh-keygen -t rsa
+        ```
+
+      * In a Windows environment, use puttyGen.
+
+1. (Conditional) If you want to set up secure transfer with your own FTP location, you must have an SFTP host, username, and the destination site that contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
 
 1. Create a file named [!DNL authorized_keys] (no extension).
+
 1. Copy the contents of the Public key into [!DNL authorized_keys].
+
 1. Upload [!DNL authorized_keys] to an FTP account:
 
     * Connect to the Adobe FTP account.

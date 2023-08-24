@@ -1,6 +1,7 @@
 ---
 title: Classifications FAQ
 description: Frequently asked questions for using classifications.
+feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 ---
 # Classifications FAQ
@@ -17,7 +18,7 @@ Classification files uploaded with either a key value or classification value of
   
   *If [dimension] equals `0`, overwrite value of [dimension] with custom value `Zero`.*
 
-* **Request a VISTA rule**: An Engineering Services consultant sets up a server-side rule for you at an extra cost. Contact your organization's Account Manager to request a VISTA rule.
+* **Request a VISTA rule**: An Engineering Services consultant sets up a server-side rule for you at an extra cost. Contact your Adobe Account Team to request a VISTA rule.
 
 ## Can I use the classification importer to classify dimension items that don't yet exist?
 

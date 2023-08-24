@@ -1,16 +1,13 @@
 ---
 description: Metrics are the foundation of reports and help you view and understand data relationships and enable side-by-side comparisons of different data sets about your website. Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.
-title: Metrics
-uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
+title: Reports & Analytics metrics overview
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 ---
-# Metrics
+# Reports & Analytics metrics overview
 
-Metrics are the foundation of reports and help you view and understand data relationships and enable side-by-side comparisons of different data sets about your website. Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.
-
-## Metrics overview
+{{ra-eol}}
 
 Metrics are the foundation of reports and help you view and understand data relationships and enable side-by-side comparisons of different data sets about your website. Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.
 
@@ -22,7 +19,7 @@ For a full list of metrics, see [Metrics overview](/help/components/metrics/over
 
 ## Select default report metrics 
 
-Steps that describe how to select default metrics at the report level.
+To select default metrics at the report level:
 
 <!-- 
 

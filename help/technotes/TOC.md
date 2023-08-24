@@ -3,13 +3,12 @@ product: analytics
 audience: all
 user-guide-title: Analytics tech notes
 breadcrumb-title: Tech Notes
-user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
+user-guide-description: Browse a knowledge base containing helpful articles that don't belong to a specific Analytics tool or component.
 ---
 
 # Analytics Tech Notes {#technotes}
 
 + [Analytics tech notes](home.md)
-+ [Documentation updates](doc-updates.md)
 + Adobe Analytics for Google Analytics users {#ga-to-aa}
   + [Adobe Analytics for Google Analytics users help](ga-to-aa/home.md)
   + [Accounts and report suites](ga-to-aa/accounts.md)
@@ -32,24 +31,25 @@ user-guide-description: A knowledge base containing helpful articles that don't 
   + [Compare dates to previous ranges](event/compare-dates.md)
   + [Derive data impacted by events](event/calcmetrics.md)
   + [Communicate events to users](event/communicate.md)
-  + [Intelligent Data Smoothing](event/intelligent-data-smoothing.md)
++ [Client hints](client-hints.md)
 + Cookies {#cookies}
   + [Browser cookies](cookies/cookies.md)
   + [Options to mitigate the effect of browser cookie limitations](cookies/cookieless.md)
 + [Data retention](data-retention.md)
 + [Exclude data](exclude-data.md)
-+ [Feature releases](releases.md)
 + [IPs and domains used by Adobe Analytics](ip-addresses.md)
 + [Latency](latency.md)
 + [Low-traffic value](low-traffic.md)
 + [Migrate Mobile Services processing rules to Adobe Analytics](migrate-mobile.md)
 + [Multi-currency support](multicurrency.md)
 + [Privacy overview](privacy-overview.md)
++ [Processing order](processing-order.md)
 + [Progressive web apps](pwa.md)
 + [Redirects and aliases](redirects.md)
 + Regional Data Collection {#rdc}
   + [Regional data collection help](rdc/regional-data-collection.md)
   + [SSL certification licensing](rdc/ssl-cert-licensing.md)
+  + [Supported HTTPS encryption algorithms](rdc/encryption-algos.md)
 + [Security resources](security.md)
 + [Terms used (glossary)](terms.md)
 + [Timestamps Optional](timestamps-optional.md)
@@ -57,3 +57,4 @@ user-guide-description: A knowledge base containing helpful articles that don't 
 + [Troubleshoot getting logged out](troubleshoot-sessions.md)
 + [Unspecified, other, and unknown](unspecified.md)
 + [Visitor migration](visitor-migration.md)
++ [VISTA rules](vista.md)

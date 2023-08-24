@@ -1,13 +1,12 @@
 ---
 title: rfl
 description: Remove a specific value from a character-delimited string.
+feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 ---
 # Adobe plug-in: rfl (Remove From List)
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `rfl` plug-in allows you to "safely" remove values from delimited strings, such as [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md), and others. This plug-in is useful if you want to remove specific values from a delimited string without worrying about delimiters. Several other plug-ins depend on this code to run correctly. This plug-in is not necessary if you have no need to run a specific function on more than one Analytics variable at a time, or if you're not using any dependent plug-ins.
 
@@ -16,12 +15,16 @@ The plug-in uses the following logic:
 * If the value you want to remove exists, the plug-in keeps everything in the variable except the value to remove.
 * If the value you want to remove doesn't exist, the plug-in keeps the original string as-is.
 
-## Install the plug-in using tags in Adobe Experience Platform
+## Install the plug-in using the Web SDK or Web SDK extension
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+This plug-in is not yet supported for use within the Web SDK.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired property.
+## Install the plug-in using the Adobe Analytics extension
+
+Adobe offers an extension that allows you to use most commonly-used plug-ins with Adobe Analytics.
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
 1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
@@ -34,11 +37,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Install the plug-in using custom code editor
 
-If you do not want to use the plug-in extension, you can use the custom code editor.
+If you do not want to use the Common Analytics Plugins plug-in extension, you can use the custom code editor.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
 1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.

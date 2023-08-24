@@ -1,22 +1,25 @@
 ---
 title: manageVars
 description: Alter the values of more than one Analytics variable at a time.
+feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 ---
 # Adobe plug-in: manageVars
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `manageVars` plug-in allows you to manipulate the values of multiple Analytics variables at once. You can also set values to lowercase or remove unnecessary characters from multiple variable values at the same time. Adobe recommends using this plug-in if you want to clean up the value of multiple variables at once.
 
-## Install the plug-in using tags in Adobe Experience Platform
+## Install the plug-in using the Web SDK or Web SDK extension
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+This plug-in is not yet supported for use within the Web SDK.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired property.
+## Install the plug-in using the Adobe Analytics extension
+
+Adobe offers an extension that allows you to use most commonly-used plug-ins with Adobe Analytics.
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
 1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
@@ -29,11 +32,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Install the plug-in using custom code editor
 
-If you do not want to use the plug-in extension, you can use the custom code editor.
+If you do not want to use the Common Analytics Plugins plug-in extension, you can use the custom code editor.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
 1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
@@ -129,7 +132,7 @@ manageVars("cleanStr");
 
 * Removes HTML encoding
 * Removes whitespaces found at the beginning and end of the value
-* Replaces left/right single quotes (e.g. ’) with a straight single quote (')
+* Replaces left/right single quotes with a straight single quote (`'`)
 * Replaces tab characters, newline characters, and carriage return characters with spaces
 * Replaces all double (or triple, etc.) spaces with single spaces
 

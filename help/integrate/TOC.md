@@ -3,17 +3,18 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Integration Guide
 breadcrumb-title: Integration Guide
-user-guide-description: Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, and Target.
+user-guide-description: Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager and Advertising Cloud.
 ---
 
-# Analytics Integration Guide {#integration}
+# Adobe Analytics Integration Guide {#integration}
 
 + [Analytics Integration](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Audience Analytics {#audience-analytics}
   + [Audience Analytics overview](c-audience-analytics/mc-audiences-aam.md)
   + Audience Analytics workflow {#audience-analytics-workflow}
     + [Workflow overview](c-audience-analytics/c-workflow/audiences-workflow.md)
-    + [Create Analytics destination - AAM Guide](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+    + [Create Analytics destination - Adobe Audience Manager Guide](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
     + [Use the audience data in Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
     + [Audience Analytics use cases](c-audience-analytics/aam-audience-use-cases.md)
     + [Frequently Asked Questions](c-audience-analytics/mc-audiences-faqs.md)

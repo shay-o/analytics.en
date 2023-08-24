@@ -1,6 +1,7 @@
 ---
 title: Integrate Module
 description: The Integrate Module allows Adobe partners to integrate their data collection efforts with your organization.
+feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 ---
 # Integrate Module
@@ -34,9 +35,9 @@ Obtaining module code requires a user with Product Admin access, or belonging to
 
 ### Place the Integrate Module in your implementation
 
-Implementing the Integrate Module on your site requires access to the Data Collection UI in Adobe Experience Platform. If you use a legacy JavaScript implementation, access to your organization's website source code is required.
+Implementing the Integrate Module on your site requires access to Adobe Experience Platform Data Collection. If you use a legacy JavaScript implementation, access to your organization's website source code is required.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the tag property you intend to edit.
 1. Click the Extensions tab, then click Configure under Adobe Analytics.
 1. Open the 'Configure tracker using custom code' accordion, then click '</> Open Editor'.

@@ -1,7 +1,6 @@
 ---
 description: Steps to create a basic Report Builder data request.
 title: Create a data request
-uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
@@ -14,7 +13,7 @@ Steps to create a basic data request.
 1. In the [!UICONTROL Request Wizard: Step 1] window, select a [report suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Optional) Select a segment to apply to the request. Once you have selected one or more segments, they will move to the top of the list.
 
-   Report Builder uses segments in the same way Adobe Analytics uses them. See the [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Optional) Select a [publishing list](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) to use for distribution.
+   Report Builder uses segments in the same way Adobe Analytics uses them. See the [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 1. Select a [report type](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 1. Specify a [date range](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) and report [granularity](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
 1. Click **[!UICONTROL Next]**.

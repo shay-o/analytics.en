@@ -3,8 +3,7 @@ description: Information about special characters used in the data feed.
 keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 subtopic: data feeds
 title: Special characters in data feeds
-feature: Reports & Analytics Basics
-uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
+feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 ---
 # Special characters in data feeds
@@ -27,7 +26,7 @@ When these reserved values are preceded by a backslash, they were sent as part o
 | `\\n` | The value '`\n`' was sent during data collection, escaped by Adobe. |
 | `\\` | The value '`\`' was sent during data collection, escaped by Adobe. |
 
-For example, a visitor to your site uses internal search and searches for "search\nstring". You populate eVar1 with "search\nstring", and send that value to Adobe. Adobe receives this hit, and escapes the newline included in the string. The actual value placed in raw data is "search\\nstring".
+For example, a visitor to your site uses internal search and searches for `"search\nstring"`. You populate eVar1 with `"search\nstring"`, and send that value to Adobe. Adobe receives this hit, and escapes the newline included in the string. The actual value placed in raw data is `"search\\nstring"`.
 
 ## Special characters in multi-valued variables (events_list, products_list, mvvars)
 

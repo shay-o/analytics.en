@@ -1,13 +1,12 @@
 ---
 title: websiteBot
 description: Dynamically identify bots using mouse movement.
+feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 ---
 # Adobe plug-in: websiteBot
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `websiteBot` plug-in allows you to dynamically identify if desktop visitors are bots. You can use this data to drive greater accuracy in all types of reporting, which gives you a better way to measure legitimate site traffic.
 
@@ -18,14 +17,14 @@ This plug-in performs two checks:
 
 If the user agent is on a desktop and no mouse movement is detected, the plug-in can 
 
-* Either make a direct call rule call using tags in Adobe Experience Platform, or 
+* Either make a direct call rule call using the Web SDK or the Adobe Analytics extension, or 
 * Make a link tracking call to indicate that the visitor is not a bot.
 
 ## Prerequisites
 
 Adobe recommends the following before using this plug-in:
 
-* **Configure eVar settings**: Set up an eVar under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings. Set the expiration to **Never** or **Visit** and allocation to **"Original Value (First)"**. This eVar should be set in both of these circumstances: when either the [!UICONTROL Direct Call] rule or the `s.tl` call is fired.
+* **Configure eVar settings**: Set up an eVar under [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in Report suite settings. Set the expiration to **Never** or **Visit** and allocation to **"Original Value (First)"**. This eVar should be set in both of these circumstances: when either the [!UICONTROL Direct Call] rule or the `s.tl` call is fired.
 * **Collect user agent in a separate variable**: Collect the user agent string in a separate variable to monitor the efficacy of this plug-in. Set an eVar to `navigator.UserAgent` on every hit to collect this data.
 
 ## Install the plug-in using custom code editor

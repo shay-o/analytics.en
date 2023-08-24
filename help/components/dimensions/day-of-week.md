@@ -1,6 +1,7 @@
 ---
 title: Day of week
 description: The day of the week, regardless of date range.
+feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
 ---
 # Day of week
@@ -13,4 +14,4 @@ This dimension works out of the box for all implementations. If a report suite c
 
 ## Dimension items
 
-Dimension items include `Sunday` - `Saturday`, representing the day of the week that the hit occurred on. The order of dimension items respects the first day of the week in [Customize calendar](/help/admin/admin/custom-calendar.md) by default.
+Dimension items include `Sunday` - `Saturday`, representing the day of the week that the hit occurred on. The order of dimension items respects the first day of the week in [Customize calendar](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md) by default.

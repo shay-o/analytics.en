@@ -9,9 +9,9 @@ exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
 ---
 # About Data Collection
 
-Learn about how data is collected for Adobe Analytics.
+{{ra-eol}}
 
-Every page Adobe tracks has a small snippet of Adobe-authorized JavaScript code. Your account manager provides this code.
+Learn about how data is collected for Adobe Analytics.
 
 At a high level, the data collection process flows as follows:
 

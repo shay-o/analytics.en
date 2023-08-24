@@ -2,22 +2,23 @@
 title: Field-based stitching
 description: Understand the prerequisites and limitations of stitching data using field-based stitching.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
+feature: CDA
 ---
 # Field-based stitching
 
-Cross-Device Analytics provides two distinct methods to stitch data together. This method relies on an Analytics variable, such as a [prop](/help/implement/vars/page-vars/prop.md) or [eVar](/help/implement/vars/page-vars/evar.md), to contain a person identifier. It uses that variable as a base to link devices together. Adobe recommends this stitching option for more transparency and predictibility in visitor tracking.
+Cross-Device Analytics provides two distinct methods to stitch data together. This method relies on an Analytics variable, such as a [prop](/help/implement/vars/page-vars/prop.md) or [eVar](/help/implement/vars/page-vars/evar.md), to contain a person identifier. It uses that variable as a base to link devices together. Adobe recommends this stitching option for more transparency and predictability in visitor tracking.
 
 ## Prerequisites specific to field-based stitching
 
-If you intend to implement Cross-Device Analytics using field-based stitching, the following are required. Work with teams within your organization and your Adobe Account Manager to ensure that you meet all of the following.
+If you intend to implement Cross-Device Analytics using field-based stitching, the following are required. Work with teams within your organization and your Adobe Account Team to ensure that you meet all of the following.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Failure to meet all prerequisites can result in the inability to enable Cross-Device Analytics or poor results when stitching data.
 
 * All prerequisites listed on the [overview page](overview.md).
 * Your implementation must set a prop or eVar that uniquely identifies an individual whenever possible, such as when a user logs in or opens an email. This requirement applies to all platforms, including mobile apps if used. Avoid assigning a default value to the prop or eVar.
-* Communicate the desired identifying variable to your Account Manager when provisioned for Field-based stitching.
+* Communicate the desired identifying variable to your Adobe Account Team when provisioned for Field-based stitching.
 
 ## Limitations specific to field-based stitching
 

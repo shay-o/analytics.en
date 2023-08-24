@@ -1,16 +1,36 @@
 ---
 title: AppMeasurement for JavaScript release notes
 description: Cumulative release notes for AppMeasurement for JavaScript.
-subtopic: Release notes
+feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 ---
 # AppMeasurement for JavaScript release notes
 
-Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
+Cumulative release notes for AppMeasurement for JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md).
+You can download the latest version of AppMeasurement from [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Version 2.24.0
+
+Release Date: **July 18, 2023**
+
+* Added an optional configuration (`decodeLinkParameters` - default = false) that decodes link URLs that include double-byte-encoded characters.
+* Added additional error handling for browsers with faulty high-entropy User-Agent client hints APIs.
+* Changed POST Content-Type header to use `x-www-form-urlencoded` by default.
+
+## Version 2.23.0
+
+Release Date: **September 23, 2022**
+
+* AppMeasurement now supports the collection of high-entropy user-agent client hints which Chromium browsers (Google Chrome and Microsoft Edge) use to provide device information. You can configure client hints via Tags or use the "collectHighEntropyUserAgentHints" flag. Collection of high-entropy hints is turned off by default. Learn more about User-Agent [client hints](/help/technotes/client-hints.md).
+
+## Version 2.22.4
+
+Release Date: **January 18, 2022**
+
+* The link tracking call `s.tl()` now verifies that the object which is passed to it contains an `href` attribute of type `string`. If it is not a `string`, then it will gracefully ignore the `href` attribute instead of failing. This can occur when passing `svg` objects to the link tracking call.
 
 ## Version 2.22.3
 
@@ -256,7 +276,7 @@ Updated: **August 4, 2016**
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code version 1.6.3 or higher.
+>Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, make sure that you use AppMeasurement 1.6.3 or higher.
 
 ## Version 1.6.2
 
@@ -306,7 +326,7 @@ Release Date: **November 5, 2015**
 Release Date: **September 17, 2015**
 
 * Inclusion of Visitor API 1.5.2
-* Updated [!DNL Audience Manager] module to use AAM DIL 6.2 - getCustomer IDs from VisitorAPI.js and pass them in /event call to AAM. (AN-104978)
+* Updated [!DNL Audience Manager] module to use Adobe Audience Manager DIL 6.2 - getCustomer IDs from VisitorAPI.js and pass them in /event call to Adobe Audience Manager. (AN-104978)
 
 ## Version 1.5
 

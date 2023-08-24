@@ -1,8 +1,7 @@
 ---
 description: Date Comparison in Analysis Workspace lets you take any column containing a date range and create a common date comparison, such as  year-over-year, quarter-over-quarter, month-over-month, etc.
 title: Date comparison
-uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Workspace Basics
+feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 ---
@@ -26,7 +25,7 @@ Analysis requires context, and often that context is provided by a previous time
 
    ![](assets/compare-time.png)
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
    >This right-click option is disabled for metric rows, date range rows, and time dimension rows.
 
@@ -88,7 +87,7 @@ A new setting for all tables lets you **[!UICONTROL Align Dates from each column
 
 ![](assets/date-comparison-setting.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >This setting is **disabled** (unchecked) for all existing projects and **enabled** (checked) for all new projects.
 
